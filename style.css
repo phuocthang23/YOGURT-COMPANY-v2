@@ -1,0 +1,89 @@
+body{
+    background:linear-gradient(to bottom right, #00F490, #00BBC9);
+    background-attachment: fixed;
+    font-size: 1.25rem;
+    font-family:'Open Sans', sans-serif;
+    padding-bottom: 10px;
+}
+
+p.lead{
+    font-size: 2.25rem;
+}
+
+a.nav-link, .btn-card  {
+    font-size: 1rem;
+}
+h5.card-title{
+    color: #00F490;
+    font-size: 2.625rem;
+}
+h1.display-4{
+    font-size: 4.375rem;
+    text-shadow: 1px 0px 1px #000000;
+    font-family: 'Abril Fatface', cursive;
+}
+
+a.btn-outline-light{
+    font-size: 1.1875rem;
+}
+
+span.next{
+    margin-right: 100px;
+}
+
+.form-control::placeholder{
+    color: #00F490;
+    font-weight: 500;
+}
+.btn-card {
+    background-color: #00BBC9;
+}
+form h1 {
+    font-family:'Abril Fatface', cursive; ;
+}
+.card-body h5 {
+    font-size: 2.625rem;
+}
+.shadowscard{
+    box-shadow: 3px 3px 6px #535353;
+} 
+
+/* moblie */
+@media (min-width: 0px)and (max-width : 767px) {
+
+
+    p.lead {
+        font-size: 1.68rem !important;
+    }
+
+    .bg-deck {
+        background-color: #535353;
+        color: white;
+    }
+
+    a.btn-outline-light {
+        font-size: 1rem;
+    }
+    .card-body h5 {
+        font-size: 1.625rem;
+    }
+    
+ }
+/* tablet up to */
+@media (min-width: 768px) {
+    .bg-deck {
+        background-color:#fff;
+        color: black;
+    }
+
+    .img-top{
+    
+        border-radius: 20px 0px 0px 20px;
+    }
+
+    .text-top{
+        border-radius: 0px 20px 20px 0px ;
+    }
+
+}
+
